@@ -1,4 +1,7 @@
 .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 95vh;
     background-image: url(../img/background1.jpg);
     background-size: cover;
@@ -8,6 +11,59 @@
 
     &__content {
         width: 30%;
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin: 1rem 0 5rem 0;
+    }
+
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 3rem;
+        color: $color-grey-dark;
+        border: 1px solid $color-grey-dark;
+        border-radius: 50%;
+        padding: 1rem 2rem;
+        transition: all .2s;
+    }
+
+    &__link:hover,
+    &__link:active {
+        color: $color-primary;
+        border: 1px solid $color-primary;
+    }
+
+    &__link:not(:last-child) {
+        margin-right: 2rem;
+    }
+
+    &__btn {
+        outline: none;
+        color: $color-primary;
+        border: none;
+        padding: 2rem 3rem;
+        margin: 6rem 0 4rem 0;
+        border: solid 2px $color-primary;
+        border-radius: .5rem;
+        background-color: transparent;
+        background-image: linear-gradient(to right, transparent 0, transparent 50%, $color-primary-light 50%, $color-primary 100%);
+        background-size: 220%;
+        transition: all .3s;
+    }
+
+    &__btn:hover {
+        color: #fff;
+        border: solid 2px $color-primary;
+        background-position: 100%;
+    }
+
+    &__btn:active {
+        transform: translateY(3px);
+        box-shadow: 0 2rem 4rem rgba(0,0,0, .2);
     }
 }
 
