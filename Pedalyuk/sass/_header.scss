@@ -1,0 +1,59 @@
+.header {
+    height: 95vh;
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    padding: 5rem 8rem;
+
+    &__content {
+        width: 30%;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.5rem;
+        text-transform: uppercase;
+        color: $color-primary;
+    }
+
+    &__navigation {
+        display: flex;
+        list-style: none;
+    }
+
+    &__link:link,
+    &__link:visited {
+        color: $color-grey-dark;
+        font-size: 1.5rem;
+        text-decoration: none;
+        transition: all .2s;
+    }
+
+    &__link:hover,
+    &__link:active {
+        color: $color-primary;
+    }
+
+    &__link--outline:link,
+    &__link--outline:visited {
+        padding: 1rem 2rem;
+        border: 1px solid $color-grey-dark;
+        border-radius: .5rem;
+    }
+
+    &__link--outline:hover,
+    &__link--outline:active {
+        border: 1px solid $color-primary;
+    }
+
+    li:not(:last-child) {
+        margin-right: 4rem;
+    }
+}
