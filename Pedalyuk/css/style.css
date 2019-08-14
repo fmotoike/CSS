@@ -19,6 +19,11 @@ body {
 .u-bold {
   font-weight: 700; }
 
+.features {
+  display: grid;
+  margin-top: 5rem;
+  padding: 5rem 8rem; }
+
 .header {
   display: flex;
   flex-direction: column;
