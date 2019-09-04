@@ -161,3 +161,16 @@ body {
     border: 1px solid #FF69A0; }
   .nav li:not(:last-child) {
     margin-right: 4rem; }
+
+.price {
+  margin-top: 5rem;
+  padding: 5rem 8rem;
+  text-align: center; }
+  .price__text {
+    margin-top: 2rem;
+    font-size: 1.6rem; }
+  .price__payment {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #EDEDED; }

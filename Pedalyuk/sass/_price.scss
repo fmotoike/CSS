@@ -1,0 +1,17 @@
+.price {
+    margin-top: 5rem;
+    padding: 5rem 8rem;
+    text-align: center;
+
+    &__text {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+
+    &__payment {
+        margin: 4rem 0;
+        display: flex;
+        justify-content: center;
+        background-color: #EDEDED;
+    }
+}
