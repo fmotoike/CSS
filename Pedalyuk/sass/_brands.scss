@@ -1,0 +1,20 @@
+.brands {
+    margin-top: 7rem;
+    padding: 5rem 8rem;
+    text-align: center;
+
+    &__logos {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__logo {
+        max-width: 10%;
+        opacity: .5;
+
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }   
+}

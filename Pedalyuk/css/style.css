@@ -26,6 +26,20 @@ body {
 .u-bold {
   font-weight: 700; }
 
+.brands {
+  margin-top: 7rem;
+  padding: 5rem 8rem;
+  text-align: center; }
+  .brands__logos {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center; }
+  .brands__logo {
+    max-width: 10%;
+    opacity: .5; }
+    .brands__logo:not(:last-child) {
+      margin-right: 2rem; }
+
 .features {
   display: grid;
   max-width: 100%;
@@ -165,7 +179,7 @@ body {
 .price {
   background-color: #FBFBFB;
   margin-top: 5rem;
-  padding: 5rem 8rem;
+  padding: 8rem 8rem;
   text-align: center; }
   .price__container {
     display: flex;
