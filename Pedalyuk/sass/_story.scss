@@ -1,8 +1,9 @@
 .story {
     display: flex;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: -21rem;
     padding: 5rem 8rem;
+    transform: translateY(30rem);
 
     &__card {
         width: 20%;
